@@ -1,0 +1,47 @@
+body {
+  background-color: lightgray;
+}
+
+footer {
+  min-height: 12vh;
+  background-color: gray;
+}
+
+#jumbotron {
+  background-image: linear-gradient(
+    90deg,
+    rgba(107, 96, 96, 1) 0%,
+    rgba(113, 109, 109, 1) 27%,
+    rgba(0, 99, 120, 1) 100%
+  );
+}
+
+.fade-in {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.absolute-badge {
+  position: absolute;
+  font-size: 1rem;
+  top: 10px;
+  right: 10px;
+}
+
+#add-track {
+  position: relative;
+  margin-inline: 50%;
+}
+
+#add-track:hover {
+  box-shadow: -1px 15px 17px -4px rgba(0, 0, 0, 0.68);
+}
